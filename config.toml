@@ -7,10 +7,21 @@ compile_sass = true
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = false
 
+theme = "particle-zola"
+
 [markdown]
 # Whether to do syntax highlighting
 # Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
 highlight_code = false
 
 [extra]
-# Put all your custom variables here
+# Site settings
+description = "Exploring Blockchains"
+
+# User settings
+username = "BlockZenith"
+user_description = "Anon Developer at Lorem Ipsum Dolor"
+user_title = "BlockZenith"
+email = "info _ AT _ BlockZenith _ DOT _ com"
+twitter_username = "blockzenithlabs"
+github_username =  "blockzenith"
